@@ -4,3 +4,14 @@ base theme: false
 core_version_requirement: ^8 || ^9
 description: First Custom Theme
 screenshot: nola.jpg
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar First
+  footer: Footer
+  page_top: Page top
+  page_bottom: Page bottom
+
+libraries:
+  - neworleans/global-css
