@@ -1,5 +1,6 @@
 name: New Orleans
 type: theme
 base theme: false
-description: First Custom Theme
 core_version_requirement: ^8 || ^9
+description: First Custom Theme
+screenshot: nola.jpg
