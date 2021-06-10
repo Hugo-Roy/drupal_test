@@ -1,0 +1,5 @@
+name: New Orleans
+type: theme
+base theme: false
+description: First Custom Theme
+core_version_requirement: ^8 || ^9
