@@ -1,0 +1,4 @@
+services:
+  rsvplist.service:
+    class: '\Drupal\rsvplist\Form\RSVPForm'
+    arguments: ['@messenger']
