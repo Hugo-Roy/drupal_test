@@ -1,0 +1,6 @@
+atlanta.newpage:
+  title: 'Atlanta Stuff'
+  description: 'Link to the page atlanta created'
+  route_name: atlanta.content
+  weight: 10
+  menu_name: main
