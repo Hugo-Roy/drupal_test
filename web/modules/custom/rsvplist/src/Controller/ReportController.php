@@ -51,7 +51,7 @@ class ReportController extends ControllerBase {
     $rows = [];
     foreach($entries = $this->load() as $entry) {
       // Sanitize each entry
-      $rows[] = array_map('Drupal\Component\Utility\HTML::escape', $entry);
+      $rows[] = array_map(\Drupal\Component\Utility\Html::escape($entry), $entry);
     }
     $content['table'] = [
       '#type' => 'table',
